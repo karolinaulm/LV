@@ -21,6 +21,6 @@ try:
         print("Nije pronađena niti jedna X-DSPAM-Confidence linija")
         
 except FileNotFoundError:
-    print(f"Greška! Datoteka '{ime_datoteke}' nije pronađena")
+    print(f"Datoteka '{ime_datoteke}' nije pronađena")
 except ValueError:
-    print("Greška! Problem pri pretvaranju broja")
+    print("Greška pri pretvaranju broja")
